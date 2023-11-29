@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: aqua;
+  height: 100vh;
+}
+.traffic_light{
+  text-align: center;
+  padding-top: 20px;
+  color: #1b1942;
+}
+.container{
+  height: 250px;
+  width: 250px;
+  position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%,-20%);
+  display: flex;
+  justify-content: space-between;
+}
+.left_child{
+  height: 100%;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.box{
+  height: 40px;
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1b1942;
+  color: white;
+  border:none;
+}
+.right_child{
+  height: 100%;
+  width: 125px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1942;
+}
+.circle{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  text-align: center;
+  background-color:gray;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Task3.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <h1 class="traffic_light">Traffic Light</h1>
+  </div>
+  <div class="container">
+    <div class="left">
+      <div class="left_child">
+        <button class="box stop_btn" onclick="stop()">Stop</button>
+        <button class="box ready_btn" onclick="ready()">Ready</button>
+        <button class="box go_btn" onclick="go()">Go</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="right_child">
+        <div class="circle stop stop_circle"></div>
+        <div class="circle ready ready_circle"></div>
+        <div class="circle go go_circle"></div>
+      </div>
+    </div>
+  </div>
+  <script src="Task3.js"></script>
+</body>
+
+</html>
